@@ -1,0 +1,79 @@
+/* Dark Mode Background */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f0f1a, #1a0033);
+    color: white;
+    text-align: center;
+}
+
+/* Neon accents */
+h1, h2 {
+    color: #ff4da6; /* Neon pink */
+}
+
+.section {
+    padding: 40px 20px;
+}
+
+/* Hero Section */
+.hero {
+    padding: 80px 20px;
+    background: radial-gradient(circle, #1a0033, #000000);
+}
+
+/* Heartbeat animation */
+.connect-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0066ff; /* Geek Blue */
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    animation: heartbeat 1s infinite;
+}
+
+@keyframes heartbeat {
+    0% { transform: scale(1); }
+    25% { transform: scale(1.1); }
+    50% { transform: scale(1); }
+    75% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+/* Cards */
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #111;
+    border: 1px solid #ff4da6;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 180px;
+}
+
+/* Code Box */
+.code-box {
+    background-color: #000;
+    border: 1px solid #0066ff;
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+    text-align: left;
+    font-family: monospace;
+    color: #00ffcc;
+}
+
+/* Terminal Footer */
+.terminal {
+    background-color: black;
+    color: #00ff00;
+    padding: 20px;
+    font-family: monospace;
+}
